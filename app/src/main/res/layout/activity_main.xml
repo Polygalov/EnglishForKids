@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/first_back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_height="500dp"
+        android:gravity="right"
+        android:padding="16dp">
+
+        <TextView
+            android:text="@string/chooselanguage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_green_light"/>
+
+        <ImageButton
+            android:src="@drawable/ross"
+            android:id="@+id/imageButtonRoss"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:layout_height="28dp"
+            android:layout_width="40dp"
+            android:layout_marginRight="20dp"/>
+
+        <ImageButton
+            android:src="@drawable/ukr"
+            android:id="@+id/imageButtonUkr"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:layout_height="28dp"
+            android:layout_width="40dp"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:text="@string/start"
+            android:layout_width="0dp"
+            android:id="@+id/btnStart"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:textSize="20sp"
+            android:layout_height="100dp"
+            />
+
+        <Button
+            android:text="@string/startOver"
+            android:layout_width="0dp"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:textSize="20sp"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:text="@string/progress"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:padding="16dp"/>
+
+        <Button
+            android:text="@string/exit"
+            android:layout_width="0dp"
+            android:id="@+id/exit"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:textSize="20sp"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

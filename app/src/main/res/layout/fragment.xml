@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/toy"
+        android:id="@+id/iv_new_word"
+        android:gravity="center"
+        android:layout_weight="0.7"
+        android:paddingTop="55dp"/>
+
+    <TextView
+        android:id="@+id/tvPage"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        tools:text="English Word"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:paddingTop="0dp"
+        android:layout_weight="0.1"
+        android:layout_height="180dp">
+    </TextView>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <TextView
+            android:text="[transcription]"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_transcript"
+            android:layout_weight="1.25"
+            android:textSize="24sp"
+            android:paddingTop="0dp"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_lock_silent_mode_off"
+            android:id="@+id/ib_sound"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:paddingTop="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_alignBottom="@+id/tv_transcript"
+            android:layout_toLeftOf="@+id/tv_transcript"
+            android:layout_toStartOf="@+id/tv_transcript"
+            android:layout_marginEnd="30dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:text="Перевод"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_translate"
+        android:layout_weight="1.2"
+        android:gravity="top|center"
+        android:textSize="17sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="true"
+        />
+
+</LinearLayout>

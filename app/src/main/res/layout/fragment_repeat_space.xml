@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:background="@android:color/background_light">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/img_placeholder"
+            android:id="@+id/iv_new_word_rep_alt"
+            android:gravity="center"
+            android:layout_weight="0.7"
+            android:paddingTop="55dp"/>
+
+        <TextView
+            android:id="@+id/tvPage_rep_alt"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text="English Word"
+            android:textSize="50sp"
+            android:textColor="@android:color/holo_red_dark"
+            android:paddingTop="0dp"
+            android:layout_weight="0.9"
+            android:layout_height="match_parent">
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_translate_rep_alt"
+            android:layout_weight="0.9"
+            android:gravity="top|center"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="true"
+            android:paddingTop="50dp"
+            android:text="@string/question"/>
+    </LinearLayout>
+
+</RelativeLayout>

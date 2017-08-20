@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EnglishForKids</string>
+    <string name="chooselanguage">Выберіть мову</string>
+    <string name="exit">ВИХІД</string>
+    <string name="progress">ПРОГРЕСС</string>
+    <string name="startOver">ПОЧАТИ СПОЧАТКУ</string>
+    <string name="start">ПОЧАТИ</string>
+    <string name="thems">ТЕМИ</string>
+    <string name="toys">ІГРАШКІ</string>
+    <string name="colors">Кольори</string>
+    <string name="animals">Тварини</string>
+    <string name="body">Тіело</string>
+    <string name="numbers">Цифри</string>
+    <string name="action">Дії</string>
+</resources>
+

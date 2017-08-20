@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">EnglishForKids</string>
+    <string name="chooselanguage">Выберите язык</string>
+    <string name="exit">ВЫХОД</string>
+    <string name="progress">ПРОГРЕСС</string>
+    <string name="startOver">НАЧАТЬ СНАЧАЛА</string>
+    <string name="start">НАЧАТЬ</string>
+    <string name="thems">ТЕМЫ</string>
+    <string name="toys">ИГРУШКИ</string>
+    <string name="colors">Цвета</string>
+    <string name="animals">Животные</string>
+    <string name="body">Тело</string>
+    <string name="numbers">Цифры</string>
+    <string name="action">Действия</string>
+    <string name="learnwors">Изучение слов</string>
+    <string name="fixlearning">Закрепление</string>
+    <string name="select_pair">Собери пару</string>
+    <string name="writing">Написание</string>
+    <string name="select_translate">Выбери перевод</string>
+    <string name="ball">мяч</string>
+    <string name="doll">кукла</string>
+    <string name="train">поезд</string>
+    <string name="car">машина</string>
+    <string name="plane">самолет</string>
+    <string name="bike">велосипед</string>
+    <string name="teddy_bear">плюшевый медведь</string>
+    <string name="drum">барабан</string>
+    <string name="bell">колокольчик</string>
+    <string name="balloon">воздушный шар</string>
+    <string name="kite">воздушный змей</string>
+    <string name="ship">кораблик</string>
+    <string name="dools_house">кукольный дом</string>
+    <string name="scooter">самокат</string>
+    <string name="computer">компьютер</string>
+    <string name="question">\?</string>
+</resources>
